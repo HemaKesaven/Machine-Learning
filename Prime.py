@@ -15,3 +15,4 @@ for i in range(2, int(y ** 0.5) + 1):
 # collect primes in the range [x, y]
 res = [i for i in range(x, y + 1) if primes[i]]
 print(res if res else "No")
+print("Thank you")
